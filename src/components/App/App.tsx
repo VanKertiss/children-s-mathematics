@@ -20,7 +20,6 @@ const App:React.FC = () => {
         <Route path='/authorized' element={<Authorized />} />
       </Routes>
       </div>
-
       <Footer />
     </div>
   );
