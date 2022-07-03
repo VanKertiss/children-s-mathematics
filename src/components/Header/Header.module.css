@@ -1,0 +1,45 @@
+:root{
+    --defaultTextColor: gray;
+}
+
+.container{
+    margin-top: 20px;
+    color: var(--defaultTextColor);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.imgLogo{
+    width: 150px;
+}
+
+.textLogo{
+    font-size: 24px;
+    line-height: 15px;
+    color: var(--defaultTextColor);
+}
+
+.userInfo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--defaultTextColor);
+}
+
+.userImg{
+    width: 40px;
+}
+
+.userText{
+    font-size: 20px;
+    margin-left: 15px;
+}
