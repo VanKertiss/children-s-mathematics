@@ -1,0 +1,19 @@
+:root{
+    --defaultTextColor: gray;
+    --defaultFontSize: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 60px;
+}
+
+.navItem{
+    margin-bottom: 25px;
+    font-size: var(--defaultFontSize);
+    color: var(--defaultTextColor);
+    text-decoration: none;
+}

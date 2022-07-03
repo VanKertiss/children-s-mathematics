@@ -10,7 +10,7 @@ const Header = () => {
         <div className={HS.container}>
             < Link to='/' className={HS.logo}>
                 <img src={imgLogo} alt="" className={HS.imgLogo} />
-                <div className={HS.textLogo}>Математика для деток</div>
+                <div className={HS.textLogo}>Math for kids</div>
             </Link>
 
             {!authorized

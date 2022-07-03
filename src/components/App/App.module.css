@@ -4,3 +4,8 @@
   margin: auto;
 }
 
+.mainContent{
+  display: flex;
+  justify-content: flex-start;
+  
+}
