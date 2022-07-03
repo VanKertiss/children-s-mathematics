@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 2px lightgray solid;
+    width: 100%;
+}
+
+.footerLogoImg{
+    width: 100px;
+}
+
+.githubLink{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.githubLink img {
+    width: 70px;
+    margin-right: 10px;
+}
