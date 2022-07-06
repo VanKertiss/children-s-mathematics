@@ -9,11 +9,15 @@ import Main from '../Main/Main';
 import Navigation from '../Navigation/Navigation';
 
 const App:React.FC = () => {
+
+  const authorized = false;
+
   return (
     <div className={HS.container}>
       <Header />
       <div className={HS.mainContent}>
-        <Navigation />
+       {authorized ? <Navigation /> : <></>}
+        
       <Routes>
         <Route path='/' element={<HelloPage />} />
         <Route path='/main' element={<Main />} />
