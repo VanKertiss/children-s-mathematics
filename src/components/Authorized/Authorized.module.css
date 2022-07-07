@@ -57,3 +57,9 @@ input {
     color: brown;
     font-size: 12px;
 }
+
+.linkToRegister{
+    margin-top: 20px;
+    text-decoration: none;
+    color: gray;
+}
