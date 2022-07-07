@@ -7,6 +7,7 @@ import Header from '../Header/Header';
 import HelloPage from '../HelloPage/HelloPage';
 import Main from '../Main/Main';
 import Navigation from '../Navigation/Navigation';
+import Registartion from '../Registration/Registartion';
 
 const App:React.FC = () => {
 
@@ -22,6 +23,7 @@ const App:React.FC = () => {
         <Route path='/' element={<HelloPage />} />
         <Route path='/main' element={<Main />} />
         <Route path='/authorized' element={<Authorized />} />
+        <Route path='/registration' element={<Registartion />} />
       </Routes>
       </div>
       <Footer />
